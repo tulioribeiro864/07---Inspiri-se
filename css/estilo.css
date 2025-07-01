@@ -1,0 +1,80 @@
+/* estilo.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+section {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ddd;
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+section img {
+  width: 100%;
+  border-radius: 6px;
+  height: 180px;
+  object-fit: cover;
+}
+
+section h2 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #007acc;
+}
+
+section p {
+  margin-top: 10px;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+section a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #007acc;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
